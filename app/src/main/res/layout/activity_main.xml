@@ -5,39 +5,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/white">
-
-    <ImageView
-        android:id="@+id/landingImage"
-        android:layout_width="132dp"
-        android:layout_height="121dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+    android:background="@drawable/gradient_background">
 
     <TextView
         android:id="@+id/landingText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="388dp"
         android:text="Your journey starts here"
-        app:layout_constraintBottom_toTopOf="@+id/landingImage"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="136dp"
         android:layout_height="48dp"
+        android:layout_marginBottom="236dp"
         android:onClick="startButtonClicked"
         android:text="Start"
+        android:backgroundTint="@color/background_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="356dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/landingImage"
-        app:layout_constraintVertical_bias="0.371" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422"
+        app:srcCompat="@drawable/course_planet_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

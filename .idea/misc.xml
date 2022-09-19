@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SNF/AND/app/src/main/res/drawable/gradient_background.xml" value="0.3475" />
+        <entry key="..\:/SNF/AND/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/SNF/AND/app/src/main/res/layout/activity_main_page.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Gruia/AndroidStudioProjects/ANDAR_App_Project/app/src/main/res/drawable/gradient_background.xml" value="0.5515" />
         <entry key="..\:/Users/Gruia/AndroidStudioProjects/ANDAR_App_Project/app/src/main/res/layout/activity_main.xml" value="0.559375" />
         <entry key="..\:/Users/Gruia/AndroidStudioProjects/ANDAR_App_Project/app/src/main/res/layout/activity_main_page.xml" value="0.5" />
