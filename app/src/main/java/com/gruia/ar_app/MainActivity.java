@@ -27,9 +27,6 @@ public class MainActivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         fa = this;
-
-
-
     }
 
     public void startButtonClicked(View v)
