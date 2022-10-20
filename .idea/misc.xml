@@ -19,6 +19,24 @@
         <entry key="..\:/Users/Gruia/AndroidStudioProjects/ANDAR_App_Project/app/src/main/res/drawable/gradient_background.xml" value="0.5515" />
         <entry key="..\:/Users/Gruia/AndroidStudioProjects/ANDAR_App_Project/app/src/main/res/layout/activity_main.xml" value="0.559375" />
         <entry key="..\:/Users/Gruia/AndroidStudioProjects/ANDAR_App_Project/app/src/main/res/layout/activity_main_page.xml" value="0.5" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_anatomy.xml" value="0.24825174825174826" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_courses.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_geometry.xml" value="0.11589403973509933" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_geometry_learn.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_main.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_main_page.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_profile.xml" value="0.4936594202898551" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/activity_settings.xml" value="0.3171875" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_anatomy.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_anatomy_a_r.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_anatomy_learn.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_anatomy_practice.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_geometry.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_geometry_a_r.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_geometry_learn.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/fragment_geometry_practice.xml" value="0.559375" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/geometry_fragment.xml" value="0.5583333333333333" />
+        <entry key="..\:/Users/Gruia/Desktop/AND-AR_App_Project/app/src/main/res/layout/geometry_learn_fragment.xml" value="0.5583333333333333" />
       </map>
     </option>
   </component>

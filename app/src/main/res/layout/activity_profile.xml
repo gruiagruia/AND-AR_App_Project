@@ -51,9 +51,9 @@
 
             <Button
                 android:id="@+id/button"
-                android:backgroundTint="#380036"
-                android:layout_width="96dp"
+                android:layout_width="109dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#380036"
                 android:text="Change" />
 
             <TextView
