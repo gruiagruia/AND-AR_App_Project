@@ -1,4 +1,4 @@
-package com.gruia.ar_app;
+package com.gruia.ar_app.activities;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
@@ -20,6 +20,7 @@ import com.google.ar.sceneform.AnchorNode;
 import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.TransformableNode;
+import com.gruia.ar_app.R;
 
 import java.util.Objects;
 

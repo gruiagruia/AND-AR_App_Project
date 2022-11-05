@@ -1,11 +1,11 @@
-package com.gruia.ar_app;
+package com.gruia.ar_app.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
+import android.view.WindowManager;import com.gruia.ar_app.R;
 
 public class CoursesActivity extends AppCompatActivity {
 

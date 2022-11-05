@@ -30,7 +30,13 @@ Indicates that this app requires Google Play Services for AR.
         android:theme="@style/Theme.ANDAR_App_Project"
         tools:targetApi="31">
         <activity
-            android:name=".AnatomyActivity"
+            android:name=".activities.CreateProfileActivity"
+            android:exported="false" /><activity
+            android:name=".activities.ChooseProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.AnatomyActivity"
             android:exported="false" />
         <!--
          ARCore need to be installed, as the app does not include any non-AR features.
@@ -41,25 +47,25 @@ Indicates that this app requires Google Play Services for AR.
             android:value="required" />
 
         <activity
-            android:name=".GeometryActivity"
+            android:name=".activities.GeometryActivity"
             android:exported="false" />
         <activity
-            android:name=".ProgressActivity"
+            android:name=".activities.ProgressActivity"
             android:exported="false" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".activities.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".activities.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".CoursesActivity"
+            android:name=".activities.CoursesActivity"
             android:exported="false" />
         <activity
-            android:name=".MainPage"
+            android:name=".activities.MainPage"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

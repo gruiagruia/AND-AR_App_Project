@@ -1,4 +1,4 @@
-package com.gruia.ar_app.fragments.geometry;
+package com.gruia.ar_app.fragments.anatomy.learn_fragments;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.gruia.ar_app.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link GeometryLearnFragment#newInstance} factory method to
+ * Use the {@link StomachFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class GeometryLearnFragment extends Fragment {
+public class StomachFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -25,9 +25,8 @@ public class GeometryLearnFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    View view;
 
-    public GeometryLearnFragment() {
+    public StomachFragment() {
         // Required empty public constructor
     }
 
@@ -37,11 +36,11 @@ public class GeometryLearnFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment GeometryLearnFragment.
+     * @return A new instance of fragment StomachFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static GeometryLearnFragment newInstance(String param1, String param2) {
-        GeometryLearnFragment fragment = new GeometryLearnFragment();
+    public static StomachFragment newInstance(String param1, String param2) {
+        StomachFragment fragment = new StomachFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -49,15 +48,19 @@ public class GeometryLearnFragment extends Fragment {
         return fragment;
     }
 
-
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            mParam1 = getArguments().getString(ARG_PARAM1);
+            mParam2 = getArguments().getString(ARG_PARAM2);
+        }
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_geometry_learn, container, false);
-        return view;
+        return inflater.inflate(R.layout.fragment_stomach, container, false);
     }
-
-
 }

@@ -1,20 +1,14 @@
-package com.gruia.ar_app;
+package com.gruia.ar_app.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ActionBar;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Debug;
-import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-import android.widget.Toast;
+
+import com.gruia.ar_app.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startButtonClicked(View v)
     {
-        Intent intent = new Intent(this, MainPage.class);
+        Intent intent = new Intent(this, ChooseProfileActivity.class);
         MainActivity.fa.finish();
         startActivity(intent);
     }

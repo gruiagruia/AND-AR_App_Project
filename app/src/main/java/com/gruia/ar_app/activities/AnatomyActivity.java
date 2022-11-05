@@ -1,4 +1,4 @@
-package com.gruia.ar_app;
+package com.gruia.ar_app.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -12,7 +12,11 @@ import android.view.WindowManager;
 import com.gruia.ar_app.fragments.anatomy.AnatomyARFragment;
 import com.gruia.ar_app.fragments.anatomy.AnatomyFragment;
 import com.gruia.ar_app.fragments.anatomy.AnatomyLearnFragment;
-import com.gruia.ar_app.fragments.anatomy.AnatomyPracticeFragment;
+import com.gruia.ar_app.fragments.anatomy.AnatomyPracticeFragment;import com.gruia.ar_app.R;
+import com.gruia.ar_app.fragments.anatomy.learn_fragments.HeartFragment;
+import com.gruia.ar_app.fragments.anatomy.learn_fragments.LungsFragment;
+import com.gruia.ar_app.fragments.anatomy.learn_fragments.StomachFragment;
+import com.gruia.ar_app.fragments.anatomy.learn_fragments.SubLearnFragment;
 
 
 public class AnatomyActivity extends AppCompatActivity {
@@ -26,7 +30,7 @@ public class AnatomyActivity extends AppCompatActivity {
     }
 
     public void changeLearnFragment(View view) {
-        loadFragment(new AnatomyLearnFragment());
+        loadFragment(new SubLearnFragment());
     }
 
     public void changePracticeFragment(View view) {
@@ -39,8 +43,20 @@ public class AnatomyActivity extends AppCompatActivity {
 
     private void loadFragment(Fragment fragment) {
         FragmentManager fm = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fm.beginTransaction();
+        FragmentTransaction fragmentTransaction = fm.beginTransaction().addToBackStack(null);
         fragmentTransaction.replace(R.id.anatomyFrameLayout, fragment);
         fragmentTransaction.commit();
+    }
+
+    public void changeStomachFragment(View view) {
+        loadFragment(new StomachFragment());
+    }
+
+    public void changeLungsFragment(View view) {
+        loadFragment(new LungsFragment());
+    }
+
+    public void changeHeartFragment(View view) {
+        loadFragment(new HeartFragment());
     }
 }

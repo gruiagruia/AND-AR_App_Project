@@ -1,4 +1,4 @@
-package com.gruia.ar_app;
+package com.gruia.ar_app.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -27,7 +27,7 @@ import com.google.ar.core.exceptions.UnavailableDeviceNotCompatibleException;
 import com.google.ar.core.exceptions.UnavailableSdkTooOldException;
 
 import java.io.IOException;
-import java.io.InputStream;
+import java.io.InputStream;import com.gruia.ar_app.R;
 
 public class MainPage extends AppCompatActivity {
 
